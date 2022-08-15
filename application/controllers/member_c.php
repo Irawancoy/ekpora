@@ -62,15 +62,7 @@ class member_c extends CI_Controller
     {
 
 		$data = [
-
-          
-			
 			"status_member" => $this->input->post('status_member', true),
-			
-			
-				
-           
-
         ];
 		$this->db->where('id_member', $this->input->post('id_member'));
 
